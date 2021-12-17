@@ -1,4 +1,5 @@
 body {
-    background-image: url("medical.jpg");
+    background-image: url("./images/medical.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
