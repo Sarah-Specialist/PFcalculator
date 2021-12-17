@@ -49,7 +49,7 @@ body {
 }
 
 #information{
-    display: display;
+    display: none;
     position: absolute;
     left: 250px;
     width: 340px;
