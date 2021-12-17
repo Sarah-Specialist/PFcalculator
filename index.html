@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P/F ratio calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <div id = 'main-content'>
@@ -17,13 +18,19 @@
             <div class = 'card'>
             <form>
                 <div class="icon">
-                    <img src="./images/icon.jpg" alt="question mark icon" height=20px width=20px; /><br>
-                </div>
-                <label>Enter FiO2:</label>
-                <input type="text" id="FiO2" placeholder="0.5" autofocus/><br><br>
-                    <div class="expandBtn">
-                        <input type="button" id="expandBtn" value="I don't know what the FiO2 is" /><br><br>
+                    <img src="./images/icon.jpg" id="icon" alt="question mark icon" height=20px width=20px; /><br>
+                    <div id="information">
+                        <p>The PaO2/FiO2 ratio (also known as the Horowitz index)<br>
+                            evaluates lung function and oxygenation especially in patients<br>
+                            with acute respiratory distress syndrome (ARDS).</p>
                     </div>
+                </div>
+                <label>Enter PaO2:</label>
+                <input type="text" id="PaO2" placeholder="60"/><br><br>
+                <hr><br>
+                <label>Enter FiO2:</label>
+                <input type="text" id="FiO2" placeholder="0.5" autofocus/><br>
+                    <p class="or">OR</p>
                     <div class="options">
                         <div class="np1">
                             <input type="radio" id="np1" name="device" value="np1">
@@ -54,12 +61,10 @@
                             <label for="nrm">Non-rebreather mask</label><br>
                         </div>
                     </div><br>
-                <label>Enter PaO2:</label>
-                <input type="text" id="PaO2" placeholder="60"/><br><br>
                     <div class="submit">
                         <input type="submit" id="submit" value="Submit" /><br><br>
                     </div>
-                <p>Your patient's PaO2/FiO1 ratio is: </p>
+                <p>Patient's PaO2/FiO2 ratio is: </p>
             </form>
         </div>
     </div>
