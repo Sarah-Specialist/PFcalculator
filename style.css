@@ -3,3 +3,22 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#header {
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    opacity: 90%;
+    text-align: center;
+}
+
+#header h1{
+    font-size: 80px;
+    margin: auto;
+}
+
+#header p{
+    margin: -10px;
+}
