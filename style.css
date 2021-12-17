@@ -2,6 +2,7 @@ body {
     background-image: url("./images/medical.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center top;
     font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -24,16 +25,21 @@ body {
     margin: -10px;
 }
 
-.card {
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    width: 40vw;
+    flex-wrap: wrap;
+}
+
+.card {
     background-color: white;
-    opacity: 85%;
+    opacity: 95%;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+}
+
+.expandBtn {
+    text-align: center;    
 }
 
 #expandBtn:hover {
@@ -44,8 +50,8 @@ body {
 visibility:
 }
 
-#submit {
-
+.submit {
+    text-align: center;
 }
 
 #submit:hover {

@@ -13,32 +13,37 @@
             <h1>P / F ratio</h1>
             <p>CALCULATOR</p>
         </div>
-        <div class = 'card'>
-        <form>
-            <label>Enter FiO2:</label>
-            <input type="text" id="FiO2" placeholder="0.5" autofocus/><br><br>
-            <input type="button" id="expandBtn" value="I don't know what the FiO2 is" /><br><br>
-                <div id="options">
-                    <input type="radio" id="np1" name="device" value="np1">
-                    <label for="np1">Nasal prongs 1L</label><br>
-                    <input type="radio" id="np2" name="device" value="np2">
-                    <label for="np2">Nasal prongs 2L</label><br>
-                    <input type="radio" id="np3" name="device" value="np3">
-                    <label for="np3">Nasal prongs 3L</label><br>
-                    <input type="radio" id="np4" name="device" value="np4">
-                    <label for="np4">Nasal prongs 4L</label><br>
-                    <input type="radio" id="np5" name="device" value="np5">
-                    <label for="np5">Nasal prongs 5L</label><br>
-                    <input type="radio" id="np6" name="device" value="np6">
-                    <label for="np6">Nasal prongs 6L</label><br>
-                    <input type="radio" id="nrm" name="device" value="nrm">
-                    <label for="nrm">Non-rebreather mask</label><br>
-                </div><br>
-            <label>Enter PaO2:</label>
-            <input type="text" id="PaO2" placeholder="60"/><br><br>
-            <input type="submit" id="submit" value="Submit" />
-            <p>Your patient's PaO2/FiO1 ratio is: </p>
-        </form>
+        <div class = 'container'>
+            <div class = 'card'>
+            <form>
+                <label>Enter FiO2:</label>
+                <input type="text" id="FiO2" placeholder="0.5" autofocus/><br><br>
+                    <div class="expandBtn">
+                        <input type="button" id="expandBtn" value="I don't know what the FiO2 is" /><br><br>
+                    </div>
+                    <div id="options">
+                        <input type="radio" id="np1" name="device" value="np1">
+                        <label for="np1">Nasal prongs 1L</label><br>
+                        <input type="radio" id="np2" name="device" value="np2">
+                        <label for="np2">Nasal prongs 2L</label><br>
+                        <input type="radio" id="np3" name="device" value="np3">
+                        <label for="np3">Nasal prongs 3L</label><br>
+                        <input type="radio" id="np4" name="device" value="np4">
+                        <label for="np4">Nasal prongs 4L</label><br>
+                        <input type="radio" id="np5" name="device" value="np5">
+                        <label for="np5">Nasal prongs 5L</label><br>
+                        <input type="radio" id="np6" name="device" value="np6">
+                        <label for="np6">Nasal prongs 6L</label><br>
+                        <input type="radio" id="nrm" name="device" value="nrm">
+                        <label for="nrm">Non-rebreather mask</label><br>
+                    </div><br>
+                <label>Enter PaO2:</label>
+                <input type="text" id="PaO2" placeholder="60"/><br><br>
+                    <div class="submit">
+                        <input type="submit" id="submit" value="Submit" /><br><br>
+                    </div>
+                <p>Your patient's PaO2/FiO1 ratio is: </p>
+            </form>
         </div>
     </div>
 </body>
