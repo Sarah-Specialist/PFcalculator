@@ -2,6 +2,7 @@ body {
     background-image: url("./images/medical.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #header {
@@ -21,4 +22,20 @@ body {
 
 #header p{
     margin: -10px;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    opacity: 85%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#submit {
+    
 }
