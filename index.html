@@ -18,7 +18,7 @@
             <div class = 'card'>
             <form>
                 <div class="icon">
-                    <img src="./images/icon.jpg" id="icon" alt="question mark icon" height=20px width=20px; onmouseover = "iconMouseOver()" onmouseout = "iconMouseOut()"/><br>
+                    <img src="./images/icon.jpg" id="icon" alt="question mark icon" height=20px width=20px onmouseover = "iconMouseOver()" onmouseout = "iconMouseOut()"/><br>
                     <div id="information">
                         <p>The PaO2/FiO2 ratio (also known as the Horowitz index)<br>
                             evaluates lung function and oxygenation especially in patients<br>
@@ -26,11 +26,11 @@
                     </div>
                 </div>
                 <label>Enter PaO2:</label>
-                <input type="text" id="PaO2" placeholder="60"/><br><br>
+                <input type="text" id="PaO2" placeholder="60" /><br><br>
                 <hr><br>
                 <label>Enter FiO2:</label>
                 <input type="text" id="FiO2" placeholder="0.5" autofocus/><br>
-                    <p class="or">OR</p>
+                    <p>OR</p>
                     <div class="options">
                         <div class="np1">
                             <input type="radio" id="np1" name="device" value="np1">
@@ -62,9 +62,9 @@
                         </div>
                     </div><br>
                     <div class="submit">
-                        <input type="submit" id="submit" value="Submit" /><br><br>
+                        <input type="submit" id="submit" value="Submit" onclick="division(event)" /><br><br>
                     </div>
-                <p>Patient's PaO2/FiO2 ratio is: </p>
+                <span></span>
             </form>
         </div>
     </div>
