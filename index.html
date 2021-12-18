@@ -26,38 +26,38 @@
                     </div>
                 </div>
                 <label>Enter PaO2:</label>
-                <input type="text" id="PaO2" placeholder="60" /><br><br>
+                <input type="text" id="PaO2" placeholder="60" autofocus /><br><br>
                 <hr><br>
                 <label>Enter FiO2:</label>
-                <input type="text" id="FiO2" placeholder="0.5" autofocus/><br>
+                <input type="text" id="FiO2" placeholder="0.5" /><br>
                     <p>OR</p>
                     <div class="options">
                         <div class="np1">
-                            <input type="radio" id="np1" name="device" value="np1" onclick="device()" />
+                            <input type="radio" id="np1" name="device" value="0.25" onclick="deviceSelection()" />
                             <label for="np1">Nasal prongs 1L</label><br>
                         </div>
                         <div class="np2">
-                            <input type="radio" id="np2" name="device" value="np2">
+                            <input type="radio" id="np2" name="device" value="0.29" onclick="deviceSelection()">
                             <label for="np2">Nasal prongs 2L</label><br>
                         </div>
                         <div class="np3">
-                            <input type="radio" id="np3" name="device" value="np3">
+                            <input type="radio" id="np3" name="device" value="0.33" onclick="deviceSelection()">
                             <label for="np3">Nasal prongs 3L</label><br>
                         </div>
                         <div class="np4">
-                            <input type="radio" id="np4" name="device" value="np4">
+                            <input type="radio" id="np4" name="device" value="0.37" onclick="deviceSelection()"">
                             <label for="np4">Nasal prongs 4L</label><br>
                         </div>
                         <div class="np5">
-                            <input type="radio" id="np5" name="device" value="np5">
+                            <input type="radio" id="np5" name="device" value="0.41" onclick="deviceSelection()">
                             <label for="np5">Nasal prongs 5L</label><br>
                         </div>
                         <div class="np6">
-                            <input type="radio" id="np6" name="device" value="np6">
+                            <input type="radio" id="np6" name="device" value="0.45" onclick="deviceSelection()">
                             <label for="np6">Nasal prongs 6L</label><br>
                         </div>
                         <div class="nrm">
-                            <input type="radio" id="nrm" name="device" value="nrm">
+                            <input type="radio" id="nrm" name="device" value="1" onclick="deviceSelection()">
                             <label for="nrm">Non-rebreather mask</label><br>
                         </div>
                     </div><br>
