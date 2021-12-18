@@ -24,6 +24,7 @@ body {
 
 .header p{
     margin: -10px;
+    font-size: 16px;
 }
 
 .container {
@@ -88,4 +89,70 @@ p {
 
 footer {
     display: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header {
+        position: absolute;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        margin: auto;
+    }
+
+    .header p {
+        font-size: 14px;
+        margin: auto;
+    }
+
+    #information {
+        z-index: 1;
+        left: -50px;
+    } 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 1020px) {
+    .header {
+        position: absolute;
+    }
+
+    .header h1 {
+        font-size: 60px;
+        margin: auto;
+    }
+
+    .header p {
+        font-size: 16px;
+        margin: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Special width for information box (1020px and down) */
+@media only screen and (max-width: 1020px) {
+    .header {
+        position: absolute;
+    }
+
+    #information {
+        z-index: 1;
+        left: -50px;
+    } 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
