@@ -93,3 +93,7 @@ visibility:
 #submit:hover {
     cursor: pointer;
 }
+
+footer {
+    display: none;
+}
