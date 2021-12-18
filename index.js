@@ -1,6 +1,4 @@
 // Division of PaO2 and FiO2 inputs, and validation
-
-
 function division(event) {
     event.preventDefault();
 
@@ -24,8 +22,6 @@ function division(event) {
 
 // Radio buttons to FiO2input
 function deviceSelection() {
-    
-
     if (np1.checked==true || 
         np2.checked==true || 
         np3.checked==true || 

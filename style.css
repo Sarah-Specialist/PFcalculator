@@ -68,18 +68,6 @@ p {
     text-align: center;    
 }
 
-#expandBtn:hover {
-    cursor: pointer;
-}
-
-#expandBtn {
-    display: none;
-}
-
-.options {
-display: block;
-}
-
 .np1:hover,
 .np2:hover,
 .np3:hover,
