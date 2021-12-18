@@ -72,8 +72,12 @@ p {
     cursor: pointer;
 }
 
+#expandBtn {
+    display: none;
+}
+
 .options {
-visibility:
+display: block;
 }
 
 .np1:hover,
