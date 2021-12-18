@@ -2,8 +2,9 @@ body {
     background-image: url("./images/medical.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-color: black;
     font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 .header {
@@ -29,7 +30,6 @@ body {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 p {
-    text-align: center;    
+    text-align: center;
 }
 
 .np1:hover,
@@ -95,12 +95,12 @@ footer {
 @media only screen and (max-width: 1020px) {
     #information {
         left: -50px;
-    } 
+    }
 }
 
 /* Special width for information box (1021px and up) */
 @media only screen and (min-width: 1021px) {
     #information {
         left: 250px;
-    } 
+    }
 }

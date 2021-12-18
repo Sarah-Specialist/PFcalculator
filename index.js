@@ -2,7 +2,7 @@
 function division(event) {
     event.preventDefault();
 
-    let numberFormat = /^[0-9]+$/;;
+    let numberFormat = /^[0-9]+$/;
     let PaO2input = document.getElementById("PaO2").value;
     console.log(PaO2input);
     let FiO2input = document.getElementById("FiO2").value;
@@ -22,12 +22,12 @@ function division(event) {
 
 // Radio buttons to FiO2input
 function deviceSelection() {
-    if (np1.checked==true || 
-        np2.checked==true || 
-        np3.checked==true || 
-        np4.checked==true || 
-        np5.checked==true || 
-        np6.checked==true || 
+    if (np1.checked==true ||
+        np2.checked==true ||
+        np3.checked==true ||
+        np4.checked==true ||
+        np5.checked==true ||
+        np6.checked==true ||
         nrm.checked==true){
         const rbs = document.querySelectorAll('input[name="device"]');
         let selectedValue;
@@ -39,9 +39,8 @@ function deviceSelection() {
             }
             console.log(selectedValue);
         document.getElementById("FiO2").value = selectedValue;
-    }   
+    }
 }
-
 
 // Mouseover & Mouseout Icon
 function iconMouseOver() {
