@@ -22,7 +22,7 @@ function division(event) {
     }
 }
 
-// radio buttons to FiO2input
+// Radio buttons to FiO2input
 function deviceSelection() {
     
 
