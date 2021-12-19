@@ -23,7 +23,9 @@ This is my individual project for the SkillsUnion/NTU Software Developer Immersi
 * GitHub
 
 ## Illustrations
-![](images/wireframe.jpg) => ![](images/calculatorproject.jpg)
+![](https://github.com/github/project-week-1/images/wireframe.JPG)
+
+![](images/calculatorproject.jpg)
 
 ## Getting Started
 
