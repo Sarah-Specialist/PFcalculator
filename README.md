@@ -25,7 +25,7 @@ This is my individual project for the SkillsUnion/NTU Software Developer Immersi
 ## Illustrations
 ![](https://github.com/Sarah-Specialist/project-week-1/blob/59460926064532cbc4ee96f0863d48f44aec663b/images/wireframe.JPG)
 
-![](images/calculatorproject.jpg)
+![](https://github.com/Sarah-Specialist/project-week-1/blob/cb1fb761f85ce1198ec309fc16452076acf34255/images/calculatorproject.jpg)
 
 ## Getting Started
 
