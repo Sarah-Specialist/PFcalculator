@@ -23,7 +23,7 @@ This is my individual project for the SkillsUnion/NTU Software Developer Immersi
 * GitHub
 
 ## Illustrations
-[img] => [screenshot]
+(images/wireframe) => (images/calculatorproject)
 
 ## Getting Started
 
@@ -40,7 +40,7 @@ e.g. 2L of nasal prongs = 21% + (4% x 2L) = 29%
 Meanwhile, the FiO2 on a non-rebreather mask is estimated to be approximately 100%.
 
 ## Authors and acknowledgement
-SkillsUnion
-[Read more about Horowitz index]( https://jamanetwork.com/journals/jamasurgery/article-abstract/578720)
-[Read more about ARDS]( https://pubmed.ncbi.nlm.nih.gov/22797452/)
-Icons made by [Flaticon](https://www.flaticon.com/authors/roundicons) from [www.flaticon.com](www.flaticon.com)
+* SkillsUnion
+* [Read more about Horowitz index]( https://jamanetwork.com/journals/jamasurgery/article-abstract/578720)
+* [Read more about ARDS]( https://pubmed.ncbi.nlm.nih.gov/22797452/)
+* Icons made by [Flaticon](https://www.flaticon.com/authors/roundicons) from [www.flaticon.com](www.flaticon.com)
