@@ -8,7 +8,7 @@
 * Authors and acknowledgement
 
 ## Introduction
-This is my individual project for the SkillsUnion/NTU Software Developer Immersive course. I have created a PaO2/FiO2 calculator based on my experience in healthcare. This tool helps physician understand the patient’s lung condition and oxygenation status. This is typically used for patients with acute respiratory distress syndrome (ARDS). The PaO2/FiO2 calculator features all the following:
+This is my individual project for the SkillsUnion/NTU Software Developer Immersive course. I have created a PaO2/FiO2 calculator based on my experience in healthcare. This tool helps physicians understand the patient’s lung condition and oxygenation status. This is typically used for patients with acute respiratory distress syndrome (ARDS). The PaO2/FiO2 calculator features all the following:
 - input validation
 - mathematics calculation
 - mouseover event
@@ -32,7 +32,9 @@ This is my individual project for the SkillsUnion/NTU Software Developer Immersi
 ### Usage
 #### Definition
 PaO2 refers to the partial pressure of oxygen in arterial blood
+
 FiO2 refers to the fraction of inspired oxygen – concentration of oxygen in a gas mixture
+
 A simple definition of PaO2/FiO2 ratio is given in the information box when hovering over the “?” icon on the top right corner.
 
 #### Clinical setting
