@@ -37,8 +37,11 @@ A simple definition of PaO2/FiO2 ratio is given in the information box when hove
 
 #### Clinical setting
 In a real clinical setting, the PaO2 value should be obtained by running an arterial blood gas (ABG) through the ABG machine. The FiO2 value is collected by observing the patient’s oxygen device or getting the FiO2 setting on the ventilator. 
+
 The FiO2 value might not be easily observed if the patient is on a device that does not explicitly state the FiO2. For example, the FiO2 on nasal prongs and non-rebreather mask is not clearly stated. This tool provides a convenient way to access the FiO2 values for these devices without memorization! As a rule of thumb, the FiO2 increases 4% from room air (FiO2 21%) for every liter of oxygen added to nasal prongs. 
+
 e.g. 2L of nasal prongs = 21% + (4% x 2L) = 29%
+
 Meanwhile, the FiO2 on a non-rebreather mask is estimated to be approximately 100%.
 
 ## Authors and acknowledgement
