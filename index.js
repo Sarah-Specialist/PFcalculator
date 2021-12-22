@@ -13,12 +13,14 @@ function division(event) {
         document.querySelector("span").innerText = `Patient's PaO2/FiO2 ratio is: ${result}`;
     } else if (!PaO2input.match(numberFormat) && FiO2input>=0.21 && FiO2input<=1) {
         alert("PaO2 must be a number");
+    } else if (PaO2input.match(numberFormat) && FiO2input=="") {
+        alert("FiO2 must be a number");
     } else if (PaO2input.match(numberFormat) && FiO2input<0.21) {
         alert("FiO2 at room air is 0.21 \nFiO2 cannot be less than 0.21");
-    } else if (PaO2input.match(numberFormat) && (FiO2input>1 || !FiO2input)) {
+    } else if (PaO2input.match(numberFormat) && FiO2input>1) {
         alert("Please input FiO2 as decimal e.g. 50% = 0.5");
     } else {
-        alert(`PaO2 must be a number \nPlease input FiO2 as decimal e.g. 50% = 0.5`);
+        alert(`PaO2 must be a number \nFiO2 must be a number`);
     }
 }
 
