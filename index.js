@@ -15,8 +15,10 @@ function division(event) {
         alert("PaO2 must be a number");
     } else if (PaO2input.match(numberFormat) && FiO2input=="") {
         alert("FiO2 must be a number");
-    } else if (PaO2input.match(numberFormat) && FiO2input<0.21) {
+    } else if (PaO2input.match(numberFormat) && FiO2input<=0.20) {
         alert("FiO2 at room air is 0.21 \nFiO2 cannot be less than 0.21");
+    } else if (PaO2input.match(numberFormat) && !FiO2input.match(numberFormat)) {
+        alert("FiO2 must be a number");
     } else if (PaO2input.match(numberFormat) && FiO2input>1) {
         alert("Please input FiO2 as decimal e.g. 50% = 0.5");
     } else {
